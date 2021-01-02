@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="14" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="208753" started-at="2020-12-27T14:00:26Z" finished-at="2020-12-27T14:03:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="208753" started-at="2020-12-27T14:00:26Z" finished-at="2020-12-27T14:03:54Z">
+      <class name="alert.AlertTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:alert.AlertTest@795cd85e]" name="setUp" is-config="true" duration-ms="0" started-at="2020-12-27T14:03:19Z" finished-at="2020-12-27T14:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:alert.AlertTest@795cd85e]" name="goHome" is-config="true" duration-ms="7753" started-at="2020-12-27T14:03:19Z" finished-at="2020-12-27T14:03:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testAcceptAlert()[pri:0, instance:alert.AlertTest@795cd85e]" name="testAcceptAlert" duration-ms="1031" started-at="2020-12-27T14:03:27Z" finished-at="2020-12-27T14:03:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAcceptAlert -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alert.AlertTest@795cd85e]" name="recordFailure" is-config="true" duration-ms="97" started-at="2020-12-27T14:03:28Z" finished-at="2020-12-27T14:03:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAcceptAlert status=SUCCESS method=AlertTest.testAcceptAlert()[pri:0, instance:alert.AlertTest@795cd85e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:alert.AlertTest@795cd85e]" name="goHome" is-config="true" duration-ms="10354" started-at="2020-12-27T14:03:28Z" finished-at="2020-12-27T14:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testGetTextFromAlert()[pri:0, instance:alert.AlertTest@795cd85e]" name="testGetTextFromAlert" duration-ms="656" started-at="2020-12-27T14:03:38Z" finished-at="2020-12-27T14:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTextFromAlert -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alert.AlertTest@795cd85e]" name="recordFailure" is-config="true" duration-ms="58" started-at="2020-12-27T14:03:39Z" finished-at="2020-12-27T14:03:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetTextFromAlert status=SUCCESS method=AlertTest.testGetTextFromAlert()[pri:0, instance:alert.AlertTest@795cd85e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:alert.AlertTest@795cd85e]" name="goHome" is-config="true" duration-ms="13897" started-at="2020-12-27T14:03:39Z" finished-at="2020-12-27T14:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testSetInputInAlert()[pri:0, instance:alert.AlertTest@795cd85e]" name="testSetInputInAlert" duration-ms="741" started-at="2020-12-27T14:03:53Z" finished-at="2020-12-27T14:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetInputInAlert -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alert.AlertTest@795cd85e]" name="recordFailure" is-config="true" duration-ms="51" started-at="2020-12-27T14:03:53Z" finished-at="2020-12-27T14:03:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSetInputInAlert status=SUCCESS method=AlertTest.testSetInputInAlert()[pri:0, instance:alert.AlertTest@795cd85e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:alert.AlertTest@795cd85e]" name="tearDown" is-config="true" duration-ms="908" started-at="2020-12-27T14:03:53Z" finished-at="2020-12-27T14:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- alert.AlertTest -->
+      <class name="status.StatusCodeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="setUp" is-config="true" duration-ms="0" started-at="2020-12-27T14:00:50Z" finished-at="2020-12-27T14:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="goHome" is-config="true" duration-ms="6327" started-at="2020-12-27T14:00:50Z" finished-at="2020-12-27T14:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testStatusCodes(java.lang.String)[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="testStatusCodes" duration-ms="933" started-at="2020-12-27T14:00:56Z" data-provider="dataStatusCode" finished-at="2020-12-27T14:00:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCodes -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="recordFailure" is-config="true" duration-ms="57" started-at="2020-12-27T14:00:57Z" finished-at="2020-12-27T14:00:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStatusCodes status=SUCCESS method=StatusCodeTest.testStatusCodes(java.lang.String)[pri:0, instance:status.StatusCodeTest@6e171cd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="goHome" is-config="true" duration-ms="10048" started-at="2020-12-27T14:00:57Z" finished-at="2020-12-27T14:01:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testStatusCodes(java.lang.String)[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="testStatusCodes" duration-ms="1030" started-at="2020-12-27T14:01:07Z" data-provider="dataStatusCode" finished-at="2020-12-27T14:01:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[301]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCodes -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="recordFailure" is-config="true" duration-ms="34" started-at="2020-12-27T14:01:08Z" finished-at="2020-12-27T14:01:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStatusCodes status=SUCCESS method=StatusCodeTest.testStatusCodes(java.lang.String)[pri:0, instance:status.StatusCodeTest@6e171cd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="goHome" is-config="true" duration-ms="8962" started-at="2020-12-27T14:01:08Z" finished-at="2020-12-27T14:01:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testStatusCodes(java.lang.String)[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="testStatusCodes" duration-ms="1130" started-at="2020-12-27T14:01:17Z" data-provider="dataStatusCode" finished-at="2020-12-27T14:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[404]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCodes -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="recordFailure" is-config="true" duration-ms="75" started-at="2020-12-27T14:01:19Z" finished-at="2020-12-27T14:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStatusCodes status=SUCCESS method=StatusCodeTest.testStatusCodes(java.lang.String)[pri:0, instance:status.StatusCodeTest@6e171cd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="goHome" is-config="true" duration-ms="20042" started-at="2020-12-27T14:01:19Z" finished-at="2020-12-27T14:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testStatusCodes(java.lang.String)[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="testStatusCodes" duration-ms="1074" started-at="2020-12-27T14:01:39Z" data-provider="dataStatusCode" finished-at="2020-12-27T14:01:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCodes -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="recordFailure" is-config="true" duration-ms="37" started-at="2020-12-27T14:01:40Z" finished-at="2020-12-27T14:01:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStatusCodes status=SUCCESS method=StatusCodeTest.testStatusCodes(java.lang.String)[pri:0, instance:status.StatusCodeTest@6e171cd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="goHome" is-config="true" duration-ms="13454" started-at="2020-12-27T14:01:40Z" finished-at="2020-12-27T14:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="FAIL" signature="testStatusCodes(java.lang.String)[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="testStatusCodes" duration-ms="30605" started-at="2020-12-27T14:01:53Z" data-provider="dataStatusCode" finished-at="2020-12-27T14:02:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[521]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"521"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ABDOU-PC', ip: '169.254.158.117', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\Users\Abdou\AppData\Local\Temp\scoped_dir7008_69679109}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:63493}, acceptInsecureCerts=false, browserVersion=87.0.4280.88, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 063599e03b27f72de6c0d9b6a4957e05
+*** Element info: {Using=link text, value=521}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"521"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ABDOU-PC', ip: '169.254.158.117', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\Users\Abdou\AppData\Local\Temp\scoped_dir7008_69679109}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:63493}, acceptInsecureCerts=false, browserVersion=87.0.4280.88, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 063599e03b27f72de6c0d9b6a4957e05
+*** Element info: {Using=link text, value=521}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:410)
+at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+at pages.StatusCodesPage.clickLinkCode(StatusCodesPage.java:19)
+at pages.StatusCodesPage.clickStatusCode(StatusCodesPage.java:14)
+at status.StatusCodeTest.testStatusCodes(StatusCodeTest.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCodes -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="recordFailure" is-config="true" duration-ms="378" started-at="2020-12-27T14:02:24Z" finished-at="2020-12-27T14:02:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStatusCodes status=FAILURE method=StatusCodeTest.testStatusCodes(java.lang.String)[pri:0, instance:status.StatusCodeTest@6e171cd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:status.StatusCodeTest@6e171cd7]" name="tearDown" is-config="true" duration-ms="633" started-at="2020-12-27T14:02:25Z" finished-at="2020-12-27T14:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- status.StatusCodeTest -->
+      <class name="login.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:login.LoginTest@402bba4f]" name="setUp" is-config="true" duration-ms="0" started-at="2020-12-27T14:02:43Z" finished-at="2020-12-27T14:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:login.LoginTest@402bba4f]" name="goHome" is-config="true" duration-ms="10181" started-at="2020-12-27T14:02:43Z" finished-at="2020-12-27T14:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testSuccessfulLogin(java.lang.String, java.lang.String)[pri:0, instance:login.LoginTest@402bba4f]" name="testSuccessfulLogin" duration-ms="2234" started-at="2020-12-27T14:02:53Z" data-provider="dataForLogin" finished-at="2020-12-27T14:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:login.LoginTest@402bba4f]" name="recordFailure" is-config="true" duration-ms="42" started-at="2020-12-27T14:02:55Z" finished-at="2020-12-27T14:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSuccessfulLogin status=SUCCESS method=LoginTest.testSuccessfulLogin(java.lang.String, java.lang.String)[pri:0, instance:login.LoginTest@402bba4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:login.LoginTest@402bba4f]" name="goHome" is-config="true" duration-ms="6562" started-at="2020-12-27T14:02:55Z" finished-at="2020-12-27T14:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="FAIL" signature="testSuccessfulLogin(java.lang.String, java.lang.String)[pri:0, instance:login.LoginTest@402bba4f]" name="testSuccessfulLogin" duration-ms="1773" started-at="2020-12-27T14:03:02Z" data-provider="dataForLogin" finished-at="2020-12-27T14:03:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kimsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[text is not correct expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: text is not correct expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at login.LoginTest.testSuccessfulLogin(LoginTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:login.LoginTest@402bba4f]" name="recordFailure" is-config="true" duration-ms="365" started-at="2020-12-27T14:03:04Z" finished-at="2020-12-27T14:03:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSuccessfulLogin status=FAILURE method=LoginTest.testSuccessfulLogin(java.lang.String, java.lang.String)[pri:0, instance:login.LoginTest@402bba4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:login.LoginTest@402bba4f]" name="tearDown" is-config="true" duration-ms="777" started-at="2020-12-27T14:03:04Z" finished-at="2020-12-27T14:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login.LoginTest -->
+      <class name="sentEmail.SentEmailTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:sentEmail.SentEmailTest@498d318c]" name="setUp" is-config="true" duration-ms="15" started-at="2020-12-27T14:00:26Z" finished-at="2020-12-27T14:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:sentEmail.SentEmailTest@498d318c]" name="goHome" is-config="true" duration-ms="7280" started-at="2020-12-27T14:00:26Z" finished-at="2020-12-27T14:00:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testSentEmail()[pri:0, instance:sentEmail.SentEmailTest@498d318c]" name="testSentEmail" duration-ms="1950" started-at="2020-12-27T14:00:33Z" finished-at="2020-12-27T14:00:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSentEmail -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:sentEmail.SentEmailTest@498d318c]" name="recordFailure" is-config="true" duration-ms="45" started-at="2020-12-27T14:00:35Z" finished-at="2020-12-27T14:00:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSentEmail status=SUCCESS method=SentEmailTest.testSentEmail()[pri:0, instance:sentEmail.SentEmailTest@498d318c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sentEmail.SentEmailTest@498d318c]" name="tearDown" is-config="true" duration-ms="595" started-at="2020-12-27T14:00:35Z" finished-at="2020-12-27T14:00:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sentEmail.SentEmailTest -->
+      <class name="wait.Example2LoadingTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:wait.Example2LoadingTest@59fd97a8]" name="setUp" is-config="true" duration-ms="0" started-at="2020-12-27T14:00:35Z" finished-at="2020-12-27T14:00:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:wait.Example2LoadingTest@59fd97a8]" name="goHome" is-config="true" duration-ms="7428" started-at="2020-12-27T14:00:35Z" finished-at="2020-12-27T14:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testWaitExmaple2()[pri:0, instance:wait.Example2LoadingTest@59fd97a8]" name="testWaitExmaple2" duration-ms="6433" started-at="2020-12-27T14:00:43Z" finished-at="2020-12-27T14:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWaitExmaple2 -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:wait.Example2LoadingTest@59fd97a8]" name="recordFailure" is-config="true" duration-ms="44" started-at="2020-12-27T14:00:49Z" finished-at="2020-12-27T14:00:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWaitExmaple2 status=SUCCESS method=Example2LoadingTest.testWaitExmaple2()[pri:0, instance:wait.Example2LoadingTest@59fd97a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:wait.Example2LoadingTest@59fd97a8]" name="tearDown" is-config="true" duration-ms="593" started-at="2020-12-27T14:00:49Z" finished-at="2020-12-27T14:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- wait.Example2LoadingTest -->
+      <class name="wait.Example1LoadingTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:wait.Example1LoadingTest@f5ac9e4]" name="setUp" is-config="true" duration-ms="0" started-at="2020-12-27T14:02:25Z" finished-at="2020-12-27T14:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:wait.Example1LoadingTest@f5ac9e4]" name="goHome" is-config="true" duration-ms="10393" started-at="2020-12-27T14:02:25Z" finished-at="2020-12-27T14:02:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testWaitExmaple1()[pri:0, instance:wait.Example1LoadingTest@f5ac9e4]" name="testWaitExmaple1" duration-ms="6429" started-at="2020-12-27T14:02:36Z" finished-at="2020-12-27T14:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWaitExmaple1 -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:wait.Example1LoadingTest@f5ac9e4]" name="recordFailure" is-config="true" duration-ms="48" started-at="2020-12-27T14:02:42Z" finished-at="2020-12-27T14:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWaitExmaple1 status=SUCCESS method=Example1LoadingTest.testWaitExmaple1()[pri:0, instance:wait.Example1LoadingTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:wait.Example1LoadingTest@f5ac9e4]" name="tearDown" is-config="true" duration-ms="588" started-at="2020-12-27T14:02:42Z" finished-at="2020-12-27T14:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- wait.Example1LoadingTest -->
+      <class name="geolocation.GeolocationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:geolocation.GeolocationTest@123ef382]" name="setUp" is-config="true" duration-ms="1" started-at="2020-12-27T14:03:05Z" finished-at="2020-12-27T14:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:geolocation.GeolocationTest@123ef382]" name="goHome" is-config="true" duration-ms="11240" started-at="2020-12-27T14:03:05Z" finished-at="2020-12-27T14:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testGeolocation()[pri:0, instance:geolocation.GeolocationTest@123ef382]" name="testGeolocation" duration-ms="1871" started-at="2020-12-27T14:03:16Z" finished-at="2020-12-27T14:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGeolocation -->
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:geolocation.GeolocationTest@123ef382]" name="recordFailure" is-config="true" duration-ms="49" started-at="2020-12-27T14:03:18Z" finished-at="2020-12-27T14:03:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGeolocation status=SUCCESS method=GeolocationTest.testGeolocation()[pri:0, instance:geolocation.GeolocationTest@123ef382] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:geolocation.GeolocationTest@123ef382]" name="tearDown" is-config="true" duration-ms="600" started-at="2020-12-27T14:03:18Z" finished-at="2020-12-27T14:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- geolocation.GeolocationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
